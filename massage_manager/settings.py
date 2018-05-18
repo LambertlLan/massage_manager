@@ -23,7 +23,7 @@ SECRET_KEY = '(c8v2g)%$ade^c#1d9elh5fg7f4^p6d&*=)xz0=llumd@i$aea'
 
 ALLOWED_HOSTS = "*"
 
-# Application definition 
+# Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',

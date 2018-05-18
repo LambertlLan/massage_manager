@@ -15,17 +15,20 @@ Including another URLconf
 """
 
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
 # 处理favicon.ico
 from django.views.generic.base import RedirectView
 import xadmin
+# user_manager
+import user_manager
 
 urlpatterns = [
                   path('mini-manager/', xadmin.site.urls),
                   # favicon.ico
                   path('favicon.ico/', RedirectView.as_view(url=r'static/favicon.ico')),
-
+                  # user
+                  path('user/', include("user_manager.urls"))
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)  # 配置媒体文件路径

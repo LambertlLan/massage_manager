@@ -3,10 +3,10 @@ from django.db import models
 
 # Create your models here.
 class City(models.Model):
-    city_name = models.CharField(max_length=64)
+    city_name = models.CharField(max_length=64, verbose_name="城市名称")
 
     def __str__(self):
-        return f"城市:{self.city_name}"
+        return f"{self.city_name}"
 
     class Meta:
         verbose_name_plural = "城市管理"
@@ -19,9 +19,10 @@ class Shop(models.Model):
     image = models.ImageField(upload_to='upload', verbose_name="门店照片")
     city = models.ForeignKey("City", None, verbose_name="所属城市")
     program = models.ManyToManyField("MassageProgram", verbose_name="包含项目")
+    technician = models.ManyToManyField("Technician", verbose_name="技师")
 
     def __str__(self):
-        return f"门店:{self.shop_name}"
+        return self.shop_name
 
     class Meta:
         verbose_name_plural = "门店管理"
@@ -45,9 +46,10 @@ class MassageProgram(models.Model):
     maintain_method = models.TextField(verbose_name="自我保养方法")
     need_time = models.PositiveIntegerField(verbose_name="项目时间")
     program_shop = models.ForeignKey("SymptomCategory", None, verbose_name="选择分类")
+    technician = models.ManyToManyField("Technician", verbose_name="技师")
 
     def __str__(self):
-        return f"项目{self.program_name}"
+        return self.program_name
 
     class Meta:
         verbose_name_plural = "按摩项目"
@@ -60,7 +62,7 @@ class Technician(models.Model):
     profile = models.TextField(verbose_name="个人简介")
 
     def __str__(self):
-        return f"技师{self.real_name}"
+        return self.real_name
 
     class Meta:
         verbose_name_plural = "调理师管理"

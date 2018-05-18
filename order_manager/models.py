@@ -17,4 +17,4 @@ class Order(models.Model):
         return f"订单编号{self.order_number}金额{self.amount}"
 
     class Meta:
-        verbose_name_plural = "订单管理"
+        verbose_name_plural = "订单"

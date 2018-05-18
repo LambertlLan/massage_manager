@@ -3,11 +3,11 @@ from django.db import models
 
 # Create your models here.
 class Customer(models.Model):
-    mobile = models.CharField(max_length=32, verbose_name="手机号")
-    wx_id = models.CharField(max_length=64, verbose_name="微信ID")
-    balance = models.FloatField(verbose_name="余额")
+    mobile = models.CharField(max_length=32, verbose_name="手机号", default=None, null=True)
+    wx_id = models.CharField(max_length=64, verbose_name="微信OPENID")
+    balance = models.FloatField(verbose_name="余额", default=0)
     date = models.DateTimeField(auto_now_add=True, verbose_name="注册时间")
-    vouchers = models.ManyToManyField("vouchers_manager.Vouchers", verbose_name="代金券")
+    vouchers = models.ManyToManyField("vouchers_manager.Vouchers", verbose_name="代金券", default=None, blank=True)
 
     def __str__(self):
         return f"用户id:{self.wx_id}"
