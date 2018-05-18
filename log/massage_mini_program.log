@@ -1,0 +1,638 @@
+[2018-05-17 15:13:16,535] [INFO] "GET /admin HTTP/1.1" 301 0
+[2018-05-17 15:13:16,547] [INFO] "GET /admin/ HTTP/1.1" 302 0
+[2018-05-17 15:13:16,888] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1857
+[2018-05-17 15:13:17,213] [INFO] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[2018-05-17 15:13:17,213] [INFO] "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+[2018-05-17 15:13:17,214] [INFO] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+[2018-05-17 15:13:17,462] [INFO] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2018-05-17 15:13:17,522] [INFO] "GET /favicon.ico HTTP/1.1" 301 0
+[2018-05-17 15:13:17,770] [INFO] "GET /favicon.ico/ HTTP/1.1" 302 0
+[2018-05-17 15:13:17,778] [WARNING] Not Found: /favicon.ico/static/favicon.ico
+[2018-05-17 15:13:17,779] [WARNING] "GET /favicon.ico/static/favicon.ico HTTP/1.1" 404 2277
+[2018-05-17 15:13:17,792] [INFO] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[2018-05-17 15:13:17,826] [INFO] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[2018-05-17 15:13:19,484] [WARNING] Not Found: /
+[2018-05-17 15:13:19,484] [WARNING] "GET / HTTP/1.1" 404 2169
+[2018-05-17 15:13:24,875] [INFO] "GET /admin/ HTTP/1.1" 302 0
+[2018-05-17 15:13:24,890] [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1857
+[2018-05-17 15:13:29,707] [INFO] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2018-05-17 15:13:29,731] [INFO] "GET /admin/ HTTP/1.1" 200 2944
+[2018-05-17 15:13:30,044] [INFO] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[2018-05-17 15:13:30,295] [INFO] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2018-05-17 15:13:30,353] [INFO] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2018-05-17 15:13:30,353] [INFO] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[2018-05-17 16:49:22,981] [WARNING] Not Found: /
+[2018-05-17 16:49:22,982] [WARNING] "GET / HTTP/1.1" 404 2176
+[2018-05-17 16:49:25,417] [INFO] "GET /mini-manager HTTP/1.1" 301 0
+[2018-05-17 16:49:25,526] [INFO] "GET /mini-manager/ HTTP/1.1" 200 3014
+[2018-05-17 16:49:25,542] [INFO] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2018-05-17 16:49:25,542] [INFO] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[2018-05-17 16:49:25,542] [INFO] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[2018-05-17 16:49:25,865] [INFO] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2018-05-17 16:49:26,115] [INFO] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[2018-05-17 16:49:26,175] [INFO] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[2018-05-17 16:49:26,175] [INFO] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[2018-05-17 16:49:26,176] [INFO] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2018-05-17 16:49:26,176] [INFO] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2018-05-17 16:53:17,749] [INFO] "GET /mini-manager/ HTTP/1.1" 200 3015
+[2018-05-17 16:53:19,406] [INFO] "GET /mini-manager/ HTTP/1.1" 200 3015
+[2018-05-17 16:53:20,478] [INFO] "GET /mini-manager/ HTTP/1.1" 200 3015
+[2018-05-17 16:53:21,248] [INFO] "GET /mini-manager/ HTTP/1.1" 200 3015
+[2018-05-17 16:53:21,774] [INFO] "GET /mini-manager/ HTTP/1.1" 200 3015
+[2018-05-17 16:53:21,915] [INFO] "GET /mini-manager/ HTTP/1.1" 200 3015
+[2018-05-17 16:53:22,082] [INFO] "GET /mini-manager/ HTTP/1.1" 200 3015
+[2018-05-17 16:53:22,225] [INFO] "GET /mini-manager/ HTTP/1.1" 200 3015
+[2018-05-17 16:53:22,369] [INFO] "GET /mini-manager/ HTTP/1.1" 200 3015
+[2018-05-17 16:53:29,531] [INFO] "GET /mini-manager/ HTTP/1.1" 200 3015
+[2018-05-17 16:53:32,282] [INFO] "GET /mini-manager/ HTTP/1.1" 200 3015
+[2018-05-17 16:53:33,128] [INFO] "GET /mini-manager/ HTTP/1.1" 200 3015
+[2018-05-17 16:53:33,610] [INFO] "GET /mini-manager/ HTTP/1.1" 200 3015
+[2018-05-17 16:53:33,777] [INFO] "GET /mini-manager/ HTTP/1.1" 200 3015
+[2018-05-17 16:53:33,921] [INFO] "GET /mini-manager/ HTTP/1.1" 200 3015
+[2018-05-17 16:53:34,072] [INFO] "GET /mini-manager/ HTTP/1.1" 200 3015
+[2018-05-17 16:53:34,191] [INFO] "GET /mini-manager/ HTTP/1.1" 200 3015
+[2018-05-17 16:54:32,992] [INFO] "GET /mini-manager/ HTTP/1.1" 200 3746
+[2018-05-17 16:54:34,133] [INFO] "GET /mini-manager/mini_manager/customer/ HTTP/1.1" 200 3347
+[2018-05-17 16:54:34,147] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[2018-05-17 16:54:34,154] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 16:54:34,449] [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[2018-05-17 16:54:34,450] [INFO] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[2018-05-17 16:54:34,453] [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6897
+[2018-05-17 16:54:34,454] [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 7134
+[2018-05-17 16:54:34,456] [INFO] "GET /static/admin/js/actions.js HTTP/1.1" 200 6502
+[2018-05-17 16:54:34,458] [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8729
+[2018-05-17 16:54:34,753] [INFO] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[2018-05-17 16:54:34,756] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[2018-05-17 16:54:35,075] [INFO] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2018-05-17 16:54:36,687] [INFO] "GET /mini-manager/ HTTP/1.1" 200 3746
+[2018-05-17 16:56:11,025] [INFO] "GET /mini-manager/ HTTP/1.1" 200 8842
+[2018-05-17 17:39:05,813] [ERROR] Internal Server Error: /mini-manager/
+Traceback (most recent call last):
+  File "C:\Develop\python3.6.5\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Develop\python3.6.5\lib\site-packages\MySQLdb\cursors.py", line 250, in execute
+    self.errorhandler(self, exc, value)
+  File "C:\Develop\python3.6.5\lib\site-packages\MySQLdb\connections.py", line 50, in defaulterrorhandler
+    raise errorvalue
+  File "C:\Develop\python3.6.5\lib\site-packages\MySQLdb\cursors.py", line 247, in execute
+    res = self._query(query)
+  File "C:\Develop\python3.6.5\lib\site-packages\MySQLdb\cursors.py", line 411, in _query
+    rowcount = self._do_query(q)
+  File "C:\Develop\python3.6.5\lib\site-packages\MySQLdb\cursors.py", line 374, in _do_query
+    db.query(q)
+  File "C:\Develop\python3.6.5\lib\site-packages\MySQLdb\connections.py", line 277, in query
+    _mysql.connection.query(self, query)
+_mysql_exceptions.ProgrammingError: (1146, "Table 'massage_mini.xadmin_usersettings' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Develop\python3.6.5\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Develop\python3.6.5\lib\site-packages\xadmin-2.0.1-py3.6.egg\xadmin\sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Develop\python3.6.5\lib\site-packages\xadmin-2.0.1-py3.6.egg\xadmin\sites.py", line 208, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Develop\python3.6.5\lib\site-packages\xadmin-2.0.1-py3.6.egg\xadmin\views\base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Develop\python3.6.5\lib\site-packages\xadmin-2.0.1-py3.6.egg\xadmin\views\dashboard.py", line 592, in get
+    self.widgets = self.get_widgets()
+  File "C:\Develop\python3.6.5\lib\site-packages\xadmin-2.0.1-py3.6.egg\xadmin\views\base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "C:\Develop\python3.6.5\lib\site-packages\xadmin-2.0.1-py3.6.egg\xadmin\views\base.py", line 49, in filter_chain
+    return func()
+  File "C:\Develop\python3.6.5\lib\site-packages\xadmin-2.0.1-py3.6.egg\xadmin\views\base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "C:\Develop\python3.6.5\lib\site-packages\xadmin-2.0.1-py3.6.egg\xadmin\views\dashboard.py", line 549, in get_widgets
+    if len(portal_pos):
+  File "C:\Develop\python3.6.5\lib\site-packages\django\db\models\query.py", line 254, in __len__
+    self._fetch_all()
+  File "C:\Develop\python3.6.5\lib\site-packages\django\db\models\query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Develop\python3.6.5\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\db\models\sql\compiler.py", line 1066, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Develop\python3.6.5\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Develop\python3.6.5\lib\site-packages\MySQLdb\cursors.py", line 250, in execute
+    self.errorhandler(self, exc, value)
+  File "C:\Develop\python3.6.5\lib\site-packages\MySQLdb\connections.py", line 50, in defaulterrorhandler
+    raise errorvalue
+  File "C:\Develop\python3.6.5\lib\site-packages\MySQLdb\cursors.py", line 247, in execute
+    res = self._query(query)
+  File "C:\Develop\python3.6.5\lib\site-packages\MySQLdb\cursors.py", line 411, in _query
+    rowcount = self._do_query(q)
+  File "C:\Develop\python3.6.5\lib\site-packages\MySQLdb\cursors.py", line 374, in _do_query
+    db.query(q)
+  File "C:\Develop\python3.6.5\lib\site-packages\MySQLdb\connections.py", line 277, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'massage_mini.xadmin_usersettings' doesn't exist")
+[2018-05-17 17:39:06,095] [ERROR] "GET /mini-manager/ HTTP/1.1" 500 228407
+[2018-05-17 17:39:40,004] [INFO] "GET /mini-manager/ HTTP/1.1" 200 9212
+[2018-05-17 17:39:40,192] [INFO] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2018-05-17 17:39:40,322] [INFO] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2018-05-17 17:39:40,328] [INFO] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+[2018-05-17 17:39:40,328] [INFO] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2018-05-17 17:39:40,329] [INFO] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8324
+[2018-05-17 17:39:40,329] [INFO] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2018-05-17 17:39:40,495] [INFO] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2018-05-17 17:39:40,628] [INFO] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+[2018-05-17 17:39:40,631] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2018-05-17 17:39:40,635] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2018-05-17 17:39:40,636] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2018-05-17 17:39:40,641] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2018-05-17 17:39:40,799] [INFO] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2018-05-17 17:39:40,933] [INFO] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2018-05-17 17:39:40,936] [INFO] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2018-05-17 17:39:40,939] [INFO] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+[2018-05-17 17:39:40,941] [INFO] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+[2018-05-17 17:39:40,954] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:39:41,266] [INFO] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2018-05-17 17:39:46,605] [INFO] "GET /mini-manager/logout/ HTTP/1.1" 200 2692
+[2018-05-17 17:39:46,925] [INFO] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[2018-05-17 17:39:46,926] [INFO] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[2018-05-17 17:39:46,926] [INFO] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[2018-05-17 17:39:46,928] [INFO] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[2018-05-17 17:39:46,930] [INFO] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[2018-05-17 17:39:46,931] [INFO] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[2018-05-17 17:39:47,229] [INFO] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[2018-05-17 17:39:47,231] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[2018-05-17 17:39:47,232] [INFO] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[2018-05-17 17:39:47,235] [ERROR] Internal Server Error: /mini-manager/jsi18n/
+Traceback (most recent call last):
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\defaulttags.py", line 1025, in find_library
+    return parser.libraries[name]
+KeyError: 'crispy_forms_tags'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Develop\python3.6.5\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\defaulttags.py", line 1082, in load
+    lib = find_library(parser, name)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\defaulttags.py", line 1029, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'crispy_forms_tags' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+i18n
+l10n
+log
+static
+staticfiles
+tz
+xadmin_tags
+[2018-05-17 17:39:47,246] [INFO] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2018-05-17 17:39:47,247] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[2018-05-17 17:39:47,424] [ERROR] "GET /mini-manager/jsi18n/ HTTP/1.1" 500 167246
+[2018-05-17 17:39:47,533] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[2018-05-17 17:39:47,536] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[2018-05-17 17:39:47,538] [INFO] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[2018-05-17 17:39:50,017] [ERROR] Internal Server Error: /mini-manager/
+Traceback (most recent call last):
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\defaulttags.py", line 1025, in find_library
+    return parser.libraries[name]
+KeyError: 'crispy_forms_tags'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Develop\python3.6.5\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\defaulttags.py", line 1082, in load
+    lib = find_library(parser, name)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\defaulttags.py", line 1029, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'crispy_forms_tags' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+i18n
+l10n
+log
+static
+staticfiles
+tz
+xadmin_tags
+[2018-05-17 17:39:50,124] [ERROR] "GET /mini-manager/ HTTP/1.1" 500 167679
+[2018-05-17 17:39:53,180] [ERROR] Internal Server Error: /mini-manager/
+Traceback (most recent call last):
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\defaulttags.py", line 1025, in find_library
+    return parser.libraries[name]
+KeyError: 'crispy_forms_tags'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Develop\python3.6.5\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\loader_tags.py", line 290, in do_extends
+    nodelist = parser.parse()
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\base.py", line 483, in parse
+    raise self.error(token, e)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\base.py", line 481, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\defaulttags.py", line 1082, in load
+    lib = find_library(parser, name)
+  File "C:\Develop\python3.6.5\lib\site-packages\django\template\defaulttags.py", line 1029, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'crispy_forms_tags' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+i18n
+l10n
+log
+static
+staticfiles
+tz
+xadmin_tags
+[2018-05-17 17:39:53,280] [ERROR] "GET /mini-manager/ HTTP/1.1" 500 167652
+[2018-05-17 17:42:13,990] [INFO] "GET /mini-manager/ HTTP/1.1" 200 4192
+[2018-05-17 17:42:14,006] [INFO] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[2018-05-17 17:42:14,008] [INFO] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[2018-05-17 17:42:14,010] [INFO] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[2018-05-17 17:42:14,011] [INFO] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[2018-05-17 17:42:14,020] [INFO] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[2018-05-17 17:42:14,316] [INFO] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[2018-05-17 17:42:14,319] [INFO] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2018-05-17 17:42:14,324] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[2018-05-17 17:42:14,326] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[2018-05-17 17:42:14,328] [INFO] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[2018-05-17 17:42:14,329] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 4199
+[2018-05-17 17:42:14,622] [INFO] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+[2018-05-17 17:42:14,625] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[2018-05-17 17:42:14,629] [INFO] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[2018-05-17 17:42:14,629] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[2018-05-17 17:42:14,633] [INFO] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[2018-05-17 17:42:16,088] [INFO] "POST /mini-manager/ HTTP/1.1" 302 0
+[2018-05-17 17:42:16,122] [INFO] "GET /mini-manager/ HTTP/1.1" 200 9236
+[2018-05-17 17:42:16,142] [INFO] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+[2018-05-17 17:42:16,151] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:42:16,443] [INFO] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+[2018-05-17 17:42:16,444] [INFO] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+[2018-05-17 17:42:21,957] [INFO] "GET /mini-manager/xadmin/log/ HTTP/1.1" 200 24983
+[2018-05-17 17:42:21,977] [INFO] "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2018-05-17 17:42:22,283] [INFO] "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 200 10225
+[2018-05-17 17:42:22,288] [INFO] "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+[2018-05-17 17:42:22,288] [INFO] "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+[2018-05-17 17:42:22,288] [INFO] "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+[2018-05-17 17:42:22,289] [INFO] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2018-05-17 17:42:22,292] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:42:22,588] [INFO] "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 200 2979
+[2018-05-17 17:42:22,592] [INFO] "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+[2018-05-17 17:42:22,596] [INFO] "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
+[2018-05-17 17:42:22,596] [INFO] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2018-05-17 17:42:22,601] [INFO] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2018-05-17 17:42:22,602] [INFO] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2018-05-17 17:42:22,892] [INFO] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2018-05-17 17:42:22,896] [INFO] "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 200 32656
+[2018-05-17 17:42:22,902] [INFO] "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 200 694
+[2018-05-17 17:42:22,903] [INFO] "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+[2018-05-17 17:42:27,514] [INFO] "GET /mini-manager/auth/group/ HTTP/1.1" 200 18453
+[2018-05-17 17:42:27,843] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:42:28,671] [INFO] "GET /mini-manager/auth/user/ HTTP/1.1" 200 28548
+[2018-05-17 17:42:28,993] [INFO] "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2018-05-17 17:42:28,998] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:42:29,612] [INFO] "GET /mini-manager/auth/permission/ HTTP/1.1" 200 85684
+[2018-05-17 17:42:29,938] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:42:31,730] [INFO] "GET /mini-manager/ HTTP/1.1" 200 9236
+[2018-05-17 17:42:32,059] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:43:42,136] [INFO] "GET /mini-manager/ HTTP/1.1" 200 15328
+[2018-05-17 17:43:42,265] [INFO] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[2018-05-17 17:43:42,450] [INFO] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[2018-05-17 17:43:42,451] [INFO] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[2018-05-17 17:43:42,454] [INFO] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[2018-05-17 17:43:42,456] [INFO] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+[2018-05-17 17:43:42,458] [INFO] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[2018-05-17 17:43:42,568] [INFO] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[2018-05-17 17:43:42,755] [INFO] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2018-05-17 17:43:42,763] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[2018-05-17 17:43:42,766] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:43:42,767] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[2018-05-17 17:43:42,767] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[2018-05-17 17:43:42,872] [INFO] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+[2018-05-17 17:43:43,058] [INFO] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[2018-05-17 17:43:43,067] [INFO] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[2018-05-17 17:43:43,071] [INFO] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[2018-05-17 17:43:43,071] [INFO] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+[2018-05-17 17:43:43,071] [INFO] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+[2018-05-17 17:43:43,175] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[2018-05-17 17:43:45,317] [INFO] "GET /mini-manager/ HTTP/1.1" 200 15328
+[2018-05-17 17:43:45,639] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:43:47,460] [INFO] "GET /mini-manager/mini_manager/customer/ HTTP/1.1" 200 24584
+[2018-05-17 17:43:47,783] [INFO] "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+[2018-05-17 17:43:47,787] [INFO] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+[2018-05-17 17:43:47,791] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:43:47,791] [INFO] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+[2018-05-17 17:43:47,793] [INFO] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+[2018-05-17 17:43:47,795] [INFO] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+[2018-05-17 17:43:48,087] [INFO] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+[2018-05-17 17:43:48,911] [INFO] "GET /mini-manager/mini_manager/rechargerecord/ HTTP/1.1" 200 24491
+[2018-05-17 17:43:48,937] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:43:49,488] [INFO] "GET /mini-manager/mini_manager/expendrecord/ HTTP/1.1" 200 24605
+[2018-05-17 17:43:49,512] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:43:50,202] [INFO] "GET /mini-manager/mini_manager/vouchersmanager/ HTTP/1.1" 200 24532
+[2018-05-17 17:43:50,203] [ERROR] "GET /mini-manager/mini_manager/vouchersmanager/ HTTP/1.1" 500 59
+[2018-05-17 17:43:50,455] [INFO] "GET /mini-manager/mini_manager/vouchers/ HTTP/1.1" 200 24374
+[2018-05-17 17:43:50,492] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:43:51,008] [INFO] "GET /mini-manager/mini_manager/city/ HTTP/1.1" 200 24211
+[2018-05-17 17:43:51,333] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:43:51,724] [INFO] "GET /mini-manager/mini_manager/shop/ HTTP/1.1" 200 24706
+[2018-05-17 17:43:52,047] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:43:52,342] [INFO] "GET /mini-manager/mini_manager/symptomcategory/ HTTP/1.1" 200 24262
+[2018-05-17 17:43:52,574] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:43:52,854] [INFO] "GET /mini-manager/mini_manager/massageprogram/ HTTP/1.1" 200 25051
+[2018-05-17 17:43:53,177] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:43:53,548] [INFO] "GET /mini-manager/mini_manager/order/ HTTP/1.1" 200 25203
+[2018-05-17 17:43:53,873] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:43:54,996] [INFO] "GET /mini-manager/ HTTP/1.1" 200 15328
+[2018-05-17 17:43:55,321] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:43:57,555] [INFO] "GET /mini-manager/xadmin/log/ HTTP/1.1" 200 31075
+[2018-05-17 17:43:57,879] [INFO] "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 304 0
+[2018-05-17 17:43:57,880] [INFO] "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+[2018-05-17 17:43:57,881] [INFO] "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+[2018-05-17 17:43:57,882] [INFO] "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+[2018-05-17 17:43:57,887] [INFO] "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 304 0
+[2018-05-17 17:43:57,896] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:43:58,187] [INFO] "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[2018-05-17 17:43:58,187] [INFO] "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+[2018-05-17 17:43:58,188] [INFO] "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+[2018-05-17 17:43:58,190] [INFO] "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 304 0
+[2018-05-17 17:43:58,194] [INFO] "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+[2018-05-17 17:43:59,065] [INFO] "GET /mini-manager/mini_manager/customer/ HTTP/1.1" 200 24584
+[2018-05-17 17:43:59,270] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:44:00,249] [INFO] "GET /mini-manager/mini_manager/rechargerecord/ HTTP/1.1" 200 24491
+[2018-05-17 17:44:00,574] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:44:49,602] [INFO] "GET /mini-manager/ HTTP/1.1" 200 15328
+[2018-05-17 17:44:49,825] [INFO] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[2018-05-17 17:44:49,921] [INFO] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[2018-05-17 17:44:49,923] [INFO] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[2018-05-17 17:44:49,923] [INFO] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[2018-05-17 17:44:49,925] [INFO] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+[2018-05-17 17:44:49,925] [INFO] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[2018-05-17 17:44:50,128] [INFO] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[2018-05-17 17:44:50,226] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[2018-05-17 17:44:50,231] [INFO] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[2018-05-17 17:44:50,231] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[2018-05-17 17:44:50,231] [INFO] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[2018-05-17 17:44:50,231] [INFO] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[2018-05-17 17:44:50,431] [INFO] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+[2018-05-17 17:44:50,530] [INFO] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+[2018-05-17 17:44:50,536] [INFO] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2018-05-17 17:44:50,537] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[2018-05-17 17:44:50,544] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:44:50,544] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[2018-05-17 17:44:57,448] [INFO] "GET /mini-manager/ HTTP/1.1" 200 15328
+[2018-05-17 17:44:57,678] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:44:57,774] [INFO] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+[2018-05-17 17:44:59,868] [INFO] "GET /mini-manager/ HTTP/1.1" 200 15328
+[2018-05-17 17:45:00,200] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:45:01,314] [INFO] "GET /mini-manager/mini_manager/customer/ HTTP/1.1" 200 24584
+[2018-05-17 17:45:01,640] [INFO] "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+[2018-05-17 17:45:01,643] [INFO] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+[2018-05-17 17:45:01,643] [INFO] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+[2018-05-17 17:45:01,647] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:45:01,651] [INFO] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+[2018-05-17 17:45:01,651] [INFO] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+[2018-05-17 17:45:01,945] [INFO] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+[2018-05-17 17:50:36,685] [INFO] "GET /mini-manager/mini_manager/customer/ HTTP/1.1" 200 24594
+[2018-05-17 17:50:36,789] [INFO] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[2018-05-17 17:50:37,005] [INFO] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[2018-05-17 17:50:37,007] [INFO] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[2018-05-17 17:50:37,007] [INFO] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[2018-05-17 17:50:37,009] [INFO] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[2018-05-17 17:50:37,011] [INFO] "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+[2018-05-17 17:50:37,092] [INFO] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[2018-05-17 17:50:37,313] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[2018-05-17 17:50:37,316] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[2018-05-17 17:50:37,316] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[2018-05-17 17:50:37,317] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[2018-05-17 17:50:37,321] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:50:37,396] [INFO] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+[2018-05-17 17:50:37,620] [INFO] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+[2018-05-17 17:50:37,622] [INFO] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+[2018-05-17 17:50:37,624] [INFO] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2018-05-17 17:50:37,626] [INFO] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+[2018-05-17 17:50:37,626] [INFO] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[2018-05-17 17:50:37,700] [INFO] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+[2018-05-17 17:50:37,926] [INFO] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[2018-05-17 17:50:37,926] [INFO] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[2018-05-17 17:50:37,929] [INFO] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+[2018-05-17 17:51:25,642] [INFO] "GET /mini-manager/mini_manager/customer/ HTTP/1.1" 200 25766
+[2018-05-17 17:51:25,670] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-17 17:58:41,437] [WARNING] Not Found: /
+[2018-05-17 17:58:41,437] [WARNING] "GET / HTTP/1.1" 404 2176
+[2018-05-17 17:58:41,781] [INFO] "GET /favicon.ico HTTP/1.1" 301 0
+[2018-05-17 17:58:41,787] [INFO] "GET /favicon.ico/ HTTP/1.1" 302 0
+[2018-05-17 17:58:41,793] [WARNING] Not Found: /favicon.ico/static/favicon.ico
+[2018-05-17 17:58:41,793] [WARNING] "GET /favicon.ico/static/favicon.ico HTTP/1.1" 404 2284
+[2018-05-18 10:10:43,756] [WARNING] Not Found: /
+[2018-05-18 10:10:43,757] [WARNING] "GET / HTTP/1.1" 404 2176
+[2018-05-18 10:10:44,071] [INFO] "GET /favicon.ico/ HTTP/1.1" 302 0
+[2018-05-18 10:10:44,107] [WARNING] Not Found: /favicon.ico/static/favicon.ico
+[2018-05-18 10:10:44,108] [WARNING] "GET /favicon.ico/static/favicon.ico HTTP/1.1" 404 2284
+[2018-05-18 10:10:50,020] [INFO] "GET /mini-manager HTTP/1.1" 301 0
+[2018-05-18 10:10:50,094] [INFO] "GET /mini-manager/ HTTP/1.1" 200 4192
+[2018-05-18 10:10:50,108] [INFO] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2018-05-18 10:10:50,108] [INFO] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2018-05-18 10:10:50,126] [INFO] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2018-05-18 10:10:50,130] [INFO] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8324
+[2018-05-18 10:10:50,132] [INFO] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2018-05-18 10:10:50,139] [INFO] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2018-05-18 10:10:50,177] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2018-05-18 10:10:50,177] [INFO] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+[2018-05-18 10:10:50,178] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 4199
+[2018-05-18 10:10:50,179] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2018-05-18 10:10:50,179] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2018-05-18 10:10:50,185] [INFO] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2018-05-18 10:10:50,190] [INFO] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2018-05-18 10:10:50,191] [INFO] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2018-05-18 10:10:50,197] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2018-05-18 10:10:50,214] [INFO] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2018-05-18 10:10:54,634] [INFO] "POST /mini-manager/ HTTP/1.1" 302 0
+[2018-05-18 10:10:54,671] [INFO] "GET /mini-manager/ HTTP/1.1" 200 16525
+[2018-05-18 10:10:54,702] [INFO] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+[2018-05-18 10:10:54,708] [INFO] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+[2018-05-18 10:10:54,709] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-18 10:10:54,710] [INFO] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+[2018-05-18 10:14:29,399] [INFO] "GET /mini-manager/ HTTP/1.1" 200 16525
+[2018-05-18 10:14:29,423] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-18 10:14:31,289] [INFO] "GET /mini-manager/ HTTP/1.1" 200 16525
+[2018-05-18 10:14:31,317] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-18 10:14:32,645] [INFO] "GET /mini-manager/ HTTP/1.1" 200 16525
+[2018-05-18 10:14:32,672] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-18 10:14:34,497] [INFO] "GET /mini-manager/ HTTP/1.1" 200 16525
+[2018-05-18 10:14:34,524] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-18 10:15:08,894] [INFO] "GET /mini-manager/ HTTP/1.1" 200 16528
+[2018-05-18 10:15:08,921] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-18 10:19:07,095] [INFO] "GET /mini-manager/ HTTP/1.1" 200 16528
+[2018-05-18 10:19:07,120] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-18 10:19:09,761] [INFO] "GET /mini-manager/xadmin/log/ HTTP/1.1" 200 32260
+[2018-05-18 10:19:09,783] [INFO] "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2018-05-18 10:19:09,784] [INFO] "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 200 10225
+[2018-05-18 10:19:09,784] [INFO] "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+[2018-05-18 10:19:09,814] [INFO] "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+[2018-05-18 10:19:09,815] [INFO] "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+[2018-05-18 10:19:09,820] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-18 10:19:09,821] [INFO] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2018-05-18 10:19:09,826] [INFO] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2018-05-18 10:19:09,829] [INFO] "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 200 694
+[2018-05-18 10:19:09,830] [INFO] "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 200 32656
+[2018-05-18 10:19:09,831] [INFO] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2018-05-18 10:19:09,832] [INFO] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2018-05-18 10:19:09,832] [INFO] "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+[2018-05-18 10:19:09,833] [INFO] "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+[2018-05-18 10:19:09,837] [INFO] "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 200 2979
+[2018-05-18 10:19:09,838] [INFO] "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
+[2018-05-18 10:19:09,842] [INFO] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2018-05-18 10:19:16,907] [INFO] "GET /mini-manager/xadmin/log/add/ HTTP/1.1" 200 22401
+[2018-05-18 10:19:16,941] [INFO] "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 200 7546
+[2018-05-18 10:19:16,942] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-18 10:19:23,760] [INFO] "GET /mini-manager/xadmin/log/ HTTP/1.1" 200 32260
+[2018-05-18 10:19:30,446] [INFO] "GET /mini-manager/mini_manager/customer/ HTTP/1.1" 200 25769
+[2018-05-18 10:19:30,479] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-18 10:19:34,212] [INFO] "GET /mini-manager/mini_manager/expendrecord/ HTTP/1.1" 200 25790
+[2018-05-18 10:19:34,238] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-18 10:19:34,857] [INFO] "GET /mini-manager/mini_manager/rechargerecord/ HTTP/1.1" 200 25676
+[2018-05-18 10:19:34,889] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-18 10:19:37,767] [INFO] "GET /mini-manager/mini_manager/city/ HTTP/1.1" 200 25396
+[2018-05-18 10:19:37,790] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-18 10:19:39,324] [INFO] "GET /mini-manager/mini_manager/city/add/ HTTP/1.1" 200 18396
+[2018-05-18 10:19:39,356] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-18 10:19:43,406] [INFO] "POST /mini-manager/mini_manager/city/add/ HTTP/1.1" 302 0
+[2018-05-18 10:19:43,469] [INFO] "GET /mini-manager/mini_manager/city/ HTTP/1.1" 200 28157
+[2018-05-18 10:19:43,495] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-18 10:19:43,500] [INFO] "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2018-05-18 10:19:47,346] [INFO] "GET /mini-manager/xadmin/log/ HTTP/1.1" 200 36838
+[2018-05-18 10:19:47,385] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-18 10:19:52,853] [INFO] "GET /mini-manager/mini_manager/city/1/update/ HTTP/1.1" 200 18720
+[2018-05-18 10:19:52,880] [INFO] "GET /mini-manager/jsi18n/ HTTP/1.1" 200 7717
+[2018-05-18 10:19:54,807] [INFO] "GET /mini-manager/xadmin/log/ HTTP/1.1" 200 36838
