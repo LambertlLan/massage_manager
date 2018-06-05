@@ -22,13 +22,25 @@ from django.conf.urls.static import static
 # 处理favicon.ico
 from django.views.generic.base import RedirectView
 import xadmin
-# user_manager
-import user_manager
 
 urlpatterns = [
+                  # index
+                  path('', RedirectView.as_view(url='/mini-manager/')),
+                  # xadmin
                   path('mini-manager/', xadmin.site.urls),
                   # favicon.ico
                   path('favicon.ico/', RedirectView.as_view(url=r'static/favicon.ico')),
+
                   # user
-                  path('user/', include("user_manager.urls"))
+                  path('user/', include("user_manager.urls")),
+                  # shop
+                  path('shop/', include("shop_manager.urls")),
+                  # message
+                  path('message/', include("message_manager.urls")),
+                  # order
+                  path('order/', include("order_manager.urls")),
+                  # recharge
+                  path('recharge/', include("recharge_manager.urls")),
+                  # voucher
+                  path('voucher/', include("vouchers_manager.urls"))
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)  # 配置媒体文件路径

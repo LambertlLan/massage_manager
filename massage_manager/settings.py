@@ -9,8 +9,8 @@ https://docs.djangoproject.com/en/2.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.0/ref/settings/
 """
-
 import os
+import datetime
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'shop_manager.apps.ShopManagerConfig',
     'user_manager.apps.UserManagerConfig',
     'vouchers_manager.apps.VouchersManagerConfig',
+    'recharge_manager.apps.RechargeManagerConfig',
     'xadmin',
     'crispy_forms'
 ]
@@ -133,19 +134,26 @@ DATE_FORMAT = 'Y-m-d'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'massage_mini',
+        'NAME': 'footer-manager',
         'HOST': "localhost",
         'PORT': "3306",
         'USER': "root",
         'PASSWORD': ""
-        # 'PASSWORD': "hongtu123"  # 服务器
     }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'sipai',
+    #     'HOST': "sflcsaas.mysql.rds.aliyuncs.com", # 服务器
+    #     'PORT': "3306",
+    #     'USER': "sipai",
+    #     'PASSWORD': "3PgYu0sR39"  # 服务器
+    # }
 }
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/.well-known/'
 
 # 部署时需要加上,nginx静态文件夹要加上statics
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static')
@@ -157,10 +165,11 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = os.path.join(BASE_DIR, '../media')
 
 APPEND_SLASH = True
 
+today = datetime.datetime.now().strftime("%Y-%m-%d")
 # 日志文件
 LOGGING = {
     'version': 1,
@@ -179,7 +188,7 @@ LOGGING = {
         'file': {
             'level': 'INFO',
             'class': 'logging.FileHandler',
-            'filename': os.path.join(BASE_DIR, "log/massage_mini_program.log"),
+            'filename': os.path.join(BASE_DIR, f"../log/{today}_SIPAI.log"),
             'formatter': 'verbose'
         },
         'email': {
