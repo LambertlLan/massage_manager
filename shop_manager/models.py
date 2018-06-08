@@ -1,4 +1,7 @@
 from django.db import models
+import os
+from PIL import Image
+from utils.compress_pictures import compress_picture
 
 
 # Create your models here.
@@ -21,6 +24,12 @@ class Shop(models.Model):
     program = models.ManyToManyField("MassageProgram", verbose_name="包含项目")
     lat = models.DecimalField(max_digits=9, decimal_places=6, verbose_name="纬度")
     lng = models.DecimalField(max_digits=9, decimal_places=6, verbose_name="经度")
+
+    def save(self, force_insert=False, force_update=False, using=None,
+             update_fields=None):
+        super(Shop, self).save()
+
+        compress_picture(self.image.path)
 
     def __str__(self):
         return self.shop_name
@@ -51,6 +60,12 @@ class MassageProgram(models.Model):
     program_category = models.ForeignKey("SymptomCategory", None, verbose_name="所属分类")
     technician = models.ManyToManyField("Technician", verbose_name="调理师", blank=True)
 
+    def save(self, force_insert=False, force_update=False, using=None,
+             update_fields=None):
+        super(MassageProgram, self).save()
+
+        compress_picture(self.image.path)
+
     def __str__(self):
         return self.program_name
 
@@ -63,7 +78,13 @@ class Technician(models.Model):
     price = models.FloatField(verbose_name="价格/分钟")
     evaluate_grade = models.FloatField(verbose_name="评分")
     profile = models.TextField(verbose_name="个人简介")
+    image = models.ImageField(upload_to='upload', verbose_name="技师照片", blank=True)
     belong_shop = models.ForeignKey("Shop", None, verbose_name="所属门店", default=None, null=True)
+
+    def save(self, force_insert=False, force_update=False, using=None,
+             update_fields=None):
+        super(Technician, self).save()
+        compress_picture(self.image.path)
 
     def __str__(self):
         return self.real_name

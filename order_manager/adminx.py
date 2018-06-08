@@ -27,7 +27,7 @@ def order_menu(obj):
 class OrderAdmin(object):
     # readonly_fields = ('user', 'order_number', 'date', 'complete')
     list_display = ["order_number", "user", "shop", "program", "technician",
-                    "amount", "voucher", "pay_type_chinese", "complete", "date"]
+                    "amount", "voucher", "pay_type_chinese", "is_pay", "complete", "date"]
     search_fields = ('order_number', 'user__mobile')
     list_filter = ('shop', 'program', 'technician', 'complete', 'date')
     ordering = ('-date',)

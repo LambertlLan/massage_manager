@@ -6,4 +6,5 @@ from . import views
 urlpatterns = [
     path("rechargeActive/", views.RechargeActive.as_view()),
     path("wx_pay/", views.Recharge.as_view()),
+    path("pay_success/", views.payback),
 ]

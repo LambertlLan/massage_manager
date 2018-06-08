@@ -1,5 +1,4 @@
 massage_manager
-media
 message_manager
 order_manager
 recharge_manager
@@ -8,3 +7,4 @@ static
 user_manager
 utils
 vouchers_manager
+wx_pay

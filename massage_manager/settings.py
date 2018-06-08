@@ -140,20 +140,13 @@ DATABASES = {
         'USER': "root",
         'PASSWORD': ""
     }
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'sipai',
-    #     'HOST': "sflcsaas.mysql.rds.aliyuncs.com", # 服务器
-    #     'PORT': "3306",
-    #     'USER': "sipai",
-    #     'PASSWORD': "3PgYu0sR39"  # 服务器
-    # }
+
 }
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-STATIC_URL = '/.well-known/'
+STATIC_URL = '/static/'
 
 # 部署时需要加上,nginx静态文件夹要加上statics
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static')

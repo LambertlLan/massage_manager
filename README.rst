@@ -42,4 +42,5 @@ Quick start
         'PASSWORD': "" # 服务器
     }
 }
+10.修改wx_pay文件中的服务器回调地址
 

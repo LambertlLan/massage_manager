@@ -5,6 +5,7 @@ from user_manager import models as user_models
 from vouchers_manager import models as voucher_models
 from shop_manager import models as shop_models
 from . import models as order_models
+from wx_pay.wx_pay import WxPay
 import json
 import time
 
@@ -25,6 +26,7 @@ class CreateOrder(Base):
         self.order_id = None
         self.program_list = []
         self.pro_tech_models = []
+        self.order_number = None
 
     def post(self, request):
         req_dict = request.POST.dict()
@@ -51,7 +53,7 @@ class CreateOrder(Base):
             self.balance_pay()
         # 微信支付
         elif self.pay_type == "1":
-            pass
+            self.res_json = self.wx_pay(self.get_client_ip(request))
 
         return JsonResponse(self.res_json)
 
@@ -71,6 +73,19 @@ class CreateOrder(Base):
             total_price = total_price + (need_time * technicial_price)
         return total_price
 
+    # 微信支付
+    def wx_pay(self, ip):
+        # 创建订单
+        self.create_order()
+        # 发起微信支付
+        # 调用微信统一下单接口
+        wx_pay = WxPay()
+        res_json = wx_pay.wx_create_order(self.wx_id, self.order_number, ip, self.need_pay, self.res_json)
+        # 写入预约列表
+        self.create_reservation_record()
+
+        return res_json
+
     # 余额支付
     def balance_pay(self):
         user_balance = user_models.Customer.objects.get(wx_id=self.wx_id).balance
@@ -89,14 +104,14 @@ class CreateOrder(Base):
 
     # 开始创建订单
     def create_order(self):
-        order_number = "DD_%d" % int(round(time.time() * 1000))
+        self.order_number = "DD_%d" % int(round(time.time() * 1000))
         user_model = user_models.Customer.objects.get(wx_id=self.wx_id)
         shop_model = shop_models.Shop.objects.get(id=self.shop_id)
         amount = self.total_price
         voucher_model = None
         if self.voucher_id:
             voucher_model = voucher_models.Vouchers.objects.get(id=self.voucher_id)
-        obj = order_models.Order(order_number=order_number, user=user_model, shop=shop_model, amount=amount,
+        obj = order_models.Order(order_number=self.order_number, user=user_model, shop=shop_model, amount=amount,
                                  need_pay=self.need_pay, voucher=voucher_model, pay_type=self.pay_type)
         obj.save()
         self.order_id = obj.id

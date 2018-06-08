@@ -29,6 +29,18 @@ class Base(views.View):
         self.secret = "b02cba99aed59341e270ee1e05f6513a"
         self.res_json = {"code": 0, "msg": "success"}
 
+    @staticmethod
+    def get_client_ip(request):
+        try:
+            real_ip = request.META['HTTP_X_FORWARDED_FOR']
+            regip = real_ip.split(",")[0]
+        except:
+            try:
+                regip = request.META['REMOTE_ADDR']
+            except:
+                regip = ""
+        return regip
+
 
 class Login(Base):
     """登录"""

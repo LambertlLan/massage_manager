@@ -6,7 +6,6 @@ massage_manager/adminx.py
 massage_manager/settings.py
 massage_manager/urls.py
 massage_manager/wsgi.py
-media/__init__.py
 message_manager/__init__.py
 message_manager/admin.py
 message_manager/adminx.py
@@ -58,6 +57,7 @@ shop_manager/migrations/0001_initial.py
 shop_manager/migrations/0002_auto_20180526_1438.py
 shop_manager/migrations/0003_auto_20180526_1440.py
 shop_manager/migrations/0004_auto_20180529_1144.py
+shop_manager/migrations/0005_technician_image.py
 shop_manager/migrations/__init__.py
 sipai_program.egg-info/PKG-INFO
 sipai_program.egg-info/SOURCES.txt
@@ -77,6 +77,7 @@ user_manager/migrations/0002_auto_20180530_1148.py
 user_manager/migrations/0003_auto_20180530_1413.py
 user_manager/migrations/0004_auto_20180530_1432.py
 user_manager/migrations/0005_auto_20180530_1619.py
+user_manager/migrations/0006_auto_20180607_1638.py
 user_manager/migrations/__init__.py
 utils/__init__.py
 utils/send_msg.py
@@ -98,3 +99,5 @@ vouchers_manager/migrations/0007_auto_20180529_1144.py
 vouchers_manager/migrations/0008_vouchersmanager_is_issue.py
 vouchers_manager/migrations/0009_auto_20180530_1619.py
 vouchers_manager/migrations/__init__.py
+wx_pay/__init__.py
+wx_pay/wx_pay.py
