@@ -24,4 +24,4 @@ def compress_picture(image_path):
     height = int(height * rate)  # 新的高
 
     image.thumbnail((width, height), Image.ANTIALIAS)  # 生成缩略图
-    image.save(os.path.join(dir_name, base + ext), 'JPEG')  # 保存到原路径
+    image.save(os.path.join(dir_name, base + ext))  # 保存到原路径

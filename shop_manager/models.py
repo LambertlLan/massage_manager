@@ -21,7 +21,7 @@ class Shop(models.Model):
     address = models.CharField(max_length=64, verbose_name="详细地址")
     image = models.ImageField(upload_to='upload', verbose_name="门店照片", blank=True)
     city = models.ForeignKey("City", None, verbose_name="所属城市")
-    program = models.ManyToManyField("MassageProgram", verbose_name="包含项目")
+    program = models.ManyToManyField("MassageProgram", verbose_name="包含项目",blank=True)
     lat = models.DecimalField(max_digits=9, decimal_places=6, verbose_name="纬度")
     lng = models.DecimalField(max_digits=9, decimal_places=6, verbose_name="经度")
 

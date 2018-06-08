@@ -1,5 +1,5 @@
 =====
-Hongtu_record
+SIPAI
 =====
 
 Polls is a simple Django app to conduct Web-based polls. For each

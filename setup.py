@@ -11,11 +11,11 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='sipai_program',
-    version='0.1.3',
+    version='0.1.6',
     packages=find_packages(),
     include_package_data=True,
     # license='BSD License',  # example license
-    description='sipai_program data system website',
+    description='edit vouchers give values',
     long_description=README,
     # url='https://www.example.com/',
     author='Lambert',

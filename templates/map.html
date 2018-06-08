@@ -1,12 +1,18 @@
 {% extends "xadmin/base_site.html" %}
+{% block extrameta %}
+    <meta name="description" content="sipai mini program">
+    <meta name="author" content="landingyu@163.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+{% endblock %}
 {% block breadcrumbs %}
 {% endblock %}
 {% block nav_title %}
     腾讯地图坐标拾取器
 {% endblock %}
-{#{% block content-nav %}#}
-{#{% endblock %}#}
+{% block content-nav %}
+{% endblock %}
 {% block content %}
+
     <div style="width: 1170px;height: 700px;overflow: hidden;margin: 0 auto;">
         <iframe style="margin-top: -130px;margin-left: -210px;" id="my_iframe"
                 src="http://lbs.qq.com/tool/getpoint/index.html" width="100%"
@@ -15,3 +21,4 @@
         </iframe>
     </div>
 {% endblock %}
+

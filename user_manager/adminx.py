@@ -23,9 +23,9 @@ from xadmin.views import CommAdminView
 class GlobalSetting(object):
     """xadmin全局配置"""
     # 设置base_site.html的Title
-    site_title = 'MASSAGE MANAGER'
+    site_title = '私派推拿馆'
     # 设置base_site.html的Footer
-    site_footer = 'MASSAGE后台管理系统'
+    site_footer = '私派推拿馆在线预约系统'
     # 设置折叠菜单
     menu_style = "accordion"
 

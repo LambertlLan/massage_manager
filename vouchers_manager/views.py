@@ -3,14 +3,16 @@ from django.http import JsonResponse
 from user_manager.views import Base
 from . import models as vouchers_models
 from user_manager import models as user_models
+import datetime
 
 
 class GetIssueVoucher(Base):
     def get(self, request):
-        issue_voucher_obj = vouchers_models.VouchersManager.objects.filter(is_issue=True)
+        now = datetime.datetime.now()
+        issue_voucher_obj = vouchers_models.VouchersManager.objects.filter(is_issue=True, effective_time__gte=now)
         if issue_voucher_obj.count() > 0:
-            issue_vouchers_id = issue_voucher_obj.order_by('-id')[0].id
-            self.res_json["issue_vouchers_id"] = issue_vouchers_id
+            issue_vouchers = issue_voucher_obj.order_by('-id').values().first()
+            self.res_json["issue_vouchers"] =issue_vouchers
         else:
             self.res_json["code"] = 1
             self.res_json["msg"] = "当前暂无发放代金券"
